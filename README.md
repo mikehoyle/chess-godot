@@ -1,1 +1,3 @@
-# Chess\nA Godot starter project
+# Chess
+
+A simple Godot starter project
