@@ -1,0 +1,612 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/board/BoardSquare.tscn" type="PackedScene" id=1]
+
+[node name="ChessBoard" type="GridContainer"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -256.0
+margin_top = -256.0
+margin_right = 256.0
+margin_bottom = 256.0
+mouse_filter = 2
+custom_constants/vseparation = 0
+custom_constants/hseparation = 0
+columns = 8
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BoardSquare" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 64.0
+margin_bottom = 64.0
+mouse_filter = 2
+
+[node name="BoardSquare2" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 64.0
+margin_right = 128.0
+margin_bottom = 64.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare3" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 128.0
+margin_right = 192.0
+margin_bottom = 64.0
+mouse_filter = 2
+
+[node name="BoardSquare4" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 192.0
+margin_right = 256.0
+margin_bottom = 64.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare5" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 256.0
+margin_right = 320.0
+margin_bottom = 64.0
+mouse_filter = 2
+
+[node name="BoardSquare6" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 320.0
+margin_right = 384.0
+margin_bottom = 64.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare7" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 384.0
+margin_right = 448.0
+margin_bottom = 64.0
+mouse_filter = 2
+
+[node name="BoardSquare8" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 448.0
+margin_right = 512.0
+margin_bottom = 64.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare9" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 64.0
+margin_right = 64.0
+margin_bottom = 128.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare10" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 64.0
+margin_top = 64.0
+margin_right = 128.0
+margin_bottom = 128.0
+mouse_filter = 2
+
+[node name="BoardSquare11" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 128.0
+margin_top = 64.0
+margin_right = 192.0
+margin_bottom = 128.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare12" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 192.0
+margin_top = 64.0
+margin_right = 256.0
+margin_bottom = 128.0
+mouse_filter = 2
+
+[node name="BoardSquare13" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 256.0
+margin_top = 64.0
+margin_right = 320.0
+margin_bottom = 128.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare14" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 320.0
+margin_top = 64.0
+margin_right = 384.0
+margin_bottom = 128.0
+mouse_filter = 2
+
+[node name="BoardSquare15" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 384.0
+margin_top = 64.0
+margin_right = 448.0
+margin_bottom = 128.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare16" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 448.0
+margin_top = 64.0
+margin_right = 512.0
+margin_bottom = 128.0
+mouse_filter = 2
+
+[node name="BoardSquare17" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 128.0
+margin_right = 64.0
+margin_bottom = 192.0
+mouse_filter = 2
+
+[node name="BoardSquare18" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 64.0
+margin_top = 128.0
+margin_right = 128.0
+margin_bottom = 192.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare19" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 128.0
+margin_top = 128.0
+margin_right = 192.0
+margin_bottom = 192.0
+mouse_filter = 2
+
+[node name="BoardSquare20" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 192.0
+margin_top = 128.0
+margin_right = 256.0
+margin_bottom = 192.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare21" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 256.0
+margin_top = 128.0
+margin_right = 320.0
+margin_bottom = 192.0
+mouse_filter = 2
+
+[node name="BoardSquare22" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 320.0
+margin_top = 128.0
+margin_right = 384.0
+margin_bottom = 192.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare23" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 384.0
+margin_top = 128.0
+margin_right = 448.0
+margin_bottom = 192.0
+mouse_filter = 2
+
+[node name="BoardSquare24" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 448.0
+margin_top = 128.0
+margin_right = 512.0
+margin_bottom = 192.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare25" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 192.0
+margin_right = 64.0
+margin_bottom = 256.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare26" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 64.0
+margin_top = 192.0
+margin_right = 128.0
+margin_bottom = 256.0
+mouse_filter = 2
+
+[node name="BoardSquare27" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 128.0
+margin_top = 192.0
+margin_right = 192.0
+margin_bottom = 256.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare28" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 192.0
+margin_top = 192.0
+margin_right = 256.0
+margin_bottom = 256.0
+mouse_filter = 2
+
+[node name="BoardSquare29" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 256.0
+margin_top = 192.0
+margin_right = 320.0
+margin_bottom = 256.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare30" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 320.0
+margin_top = 192.0
+margin_right = 384.0
+margin_bottom = 256.0
+mouse_filter = 2
+
+[node name="BoardSquare31" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 384.0
+margin_top = 192.0
+margin_right = 448.0
+margin_bottom = 256.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare32" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 448.0
+margin_top = 192.0
+margin_right = 512.0
+margin_bottom = 256.0
+mouse_filter = 2
+
+[node name="BoardSquare33" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 256.0
+margin_right = 64.0
+margin_bottom = 320.0
+mouse_filter = 2
+
+[node name="BoardSquare34" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 64.0
+margin_top = 256.0
+margin_right = 128.0
+margin_bottom = 320.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare35" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 128.0
+margin_top = 256.0
+margin_right = 192.0
+margin_bottom = 320.0
+mouse_filter = 2
+
+[node name="BoardSquare36" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 192.0
+margin_top = 256.0
+margin_right = 256.0
+margin_bottom = 320.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare37" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 256.0
+margin_top = 256.0
+margin_right = 320.0
+margin_bottom = 320.0
+mouse_filter = 2
+
+[node name="BoardSquare38" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 320.0
+margin_top = 256.0
+margin_right = 384.0
+margin_bottom = 320.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare39" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 384.0
+margin_top = 256.0
+margin_right = 448.0
+margin_bottom = 320.0
+mouse_filter = 2
+
+[node name="BoardSquare40" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 448.0
+margin_top = 256.0
+margin_right = 512.0
+margin_bottom = 320.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare41" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 320.0
+margin_right = 64.0
+margin_bottom = 384.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare42" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 64.0
+margin_top = 320.0
+margin_right = 128.0
+margin_bottom = 384.0
+mouse_filter = 2
+
+[node name="BoardSquare43" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 128.0
+margin_top = 320.0
+margin_right = 192.0
+margin_bottom = 384.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare44" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 192.0
+margin_top = 320.0
+margin_right = 256.0
+margin_bottom = 384.0
+mouse_filter = 2
+
+[node name="BoardSquare45" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 256.0
+margin_top = 320.0
+margin_right = 320.0
+margin_bottom = 384.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare46" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 320.0
+margin_top = 320.0
+margin_right = 384.0
+margin_bottom = 384.0
+mouse_filter = 2
+
+[node name="BoardSquare47" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 384.0
+margin_top = 320.0
+margin_right = 448.0
+margin_bottom = 384.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare48" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 448.0
+margin_top = 320.0
+margin_right = 512.0
+margin_bottom = 384.0
+mouse_filter = 2
+
+[node name="BoardSquare49" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 384.0
+margin_right = 64.0
+margin_bottom = 448.0
+mouse_filter = 2
+
+[node name="BoardSquare50" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 64.0
+margin_top = 384.0
+margin_right = 128.0
+margin_bottom = 448.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare51" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 128.0
+margin_top = 384.0
+margin_right = 192.0
+margin_bottom = 448.0
+mouse_filter = 2
+
+[node name="BoardSquare52" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 192.0
+margin_top = 384.0
+margin_right = 256.0
+margin_bottom = 448.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare53" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 256.0
+margin_top = 384.0
+margin_right = 320.0
+margin_bottom = 448.0
+mouse_filter = 2
+
+[node name="BoardSquare54" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 320.0
+margin_top = 384.0
+margin_right = 384.0
+margin_bottom = 448.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare55" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 384.0
+margin_top = 384.0
+margin_right = 448.0
+margin_bottom = 448.0
+mouse_filter = 2
+
+[node name="BoardSquare56" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 448.0
+margin_top = 384.0
+margin_right = 512.0
+margin_bottom = 448.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare57" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 448.0
+margin_right = 64.0
+margin_bottom = 512.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare58" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 64.0
+margin_top = 448.0
+margin_right = 128.0
+margin_bottom = 512.0
+mouse_filter = 2
+
+[node name="BoardSquare59" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 128.0
+margin_top = 448.0
+margin_right = 192.0
+margin_bottom = 512.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare60" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 192.0
+margin_top = 448.0
+margin_right = 256.0
+margin_bottom = 512.0
+mouse_filter = 2
+
+[node name="BoardSquare61" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 256.0
+margin_top = 448.0
+margin_right = 320.0
+margin_bottom = 512.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare62" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 320.0
+margin_top = 448.0
+margin_right = 384.0
+margin_bottom = 512.0
+mouse_filter = 2
+
+[node name="BoardSquare63" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 384.0
+margin_top = 448.0
+margin_right = 448.0
+margin_bottom = 512.0
+mouse_filter = 2
+is_white = false
+
+[node name="BoardSquare64" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 448.0
+margin_top = 448.0
+margin_right = 512.0
+margin_bottom = 512.0
+mouse_filter = 2
