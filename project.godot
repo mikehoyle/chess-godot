@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Chess Starter Project"
+run/main_scene="res://scenes/ActiveGame.tscn"
 config/icon="res://icon.png"
 
 [display]

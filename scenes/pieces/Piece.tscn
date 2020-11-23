@@ -25,7 +25,9 @@ animations = [ {
 "speed": 0.0
 } ]
 
-[node name="Piece" type="Node2D"]
+[node name="Piece" type="Node2D" groups=[
+"pieces",
+]]
 script = ExtResource( 2 )
 
 [node name="Area2D" type="Area2D" parent="."]
@@ -42,4 +44,3 @@ texture = ExtResource( 3 )
 [node name="PawnSprite" type="AnimatedSprite" parent="Area2D"]
 position = Vector2( 23.25, 1.25 )
 frames = SubResource( 3 )
-[connection signal="input_event" from="Area2D" to="." method="_on_Area2D_input_event"]

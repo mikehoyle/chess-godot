@@ -19,14 +19,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="BoardSquare" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_right = 64.0
 margin_bottom = 64.0
 mouse_filter = 2
 
-[node name="BoardSquare2" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare2" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 64.0
@@ -35,7 +39,9 @@ margin_bottom = 64.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare3" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare3" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 128.0
@@ -43,7 +49,9 @@ margin_right = 192.0
 margin_bottom = 64.0
 mouse_filter = 2
 
-[node name="BoardSquare4" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare4" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 192.0
@@ -52,7 +60,9 @@ margin_bottom = 64.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare5" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare5" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 256.0
@@ -60,7 +70,9 @@ margin_right = 320.0
 margin_bottom = 64.0
 mouse_filter = 2
 
-[node name="BoardSquare6" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare6" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 320.0
@@ -69,7 +81,9 @@ margin_bottom = 64.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare7" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare7" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 384.0
@@ -77,7 +91,9 @@ margin_right = 448.0
 margin_bottom = 64.0
 mouse_filter = 2
 
-[node name="BoardSquare8" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare8" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 448.0
@@ -86,7 +102,9 @@ margin_bottom = 64.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare9" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare9" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_top = 64.0
@@ -95,7 +113,9 @@ margin_bottom = 128.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare10" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare10" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 64.0
@@ -104,7 +124,9 @@ margin_right = 128.0
 margin_bottom = 128.0
 mouse_filter = 2
 
-[node name="BoardSquare11" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare11" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 128.0
@@ -114,7 +136,9 @@ margin_bottom = 128.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare12" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare12" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 192.0
@@ -123,7 +147,9 @@ margin_right = 256.0
 margin_bottom = 128.0
 mouse_filter = 2
 
-[node name="BoardSquare13" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare13" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 256.0
@@ -133,7 +159,9 @@ margin_bottom = 128.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare14" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare14" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 320.0
@@ -142,7 +170,9 @@ margin_right = 384.0
 margin_bottom = 128.0
 mouse_filter = 2
 
-[node name="BoardSquare15" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare15" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 384.0
@@ -152,7 +182,9 @@ margin_bottom = 128.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare16" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare16" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 448.0
@@ -161,7 +193,9 @@ margin_right = 512.0
 margin_bottom = 128.0
 mouse_filter = 2
 
-[node name="BoardSquare17" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare17" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_top = 128.0
@@ -169,7 +203,9 @@ margin_right = 64.0
 margin_bottom = 192.0
 mouse_filter = 2
 
-[node name="BoardSquare18" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare18" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 64.0
@@ -179,7 +215,9 @@ margin_bottom = 192.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare19" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare19" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 128.0
@@ -188,7 +226,9 @@ margin_right = 192.0
 margin_bottom = 192.0
 mouse_filter = 2
 
-[node name="BoardSquare20" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare20" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 192.0
@@ -198,7 +238,9 @@ margin_bottom = 192.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare21" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare21" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 256.0
@@ -207,7 +249,9 @@ margin_right = 320.0
 margin_bottom = 192.0
 mouse_filter = 2
 
-[node name="BoardSquare22" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare22" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 320.0
@@ -217,7 +261,9 @@ margin_bottom = 192.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare23" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare23" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 384.0
@@ -226,7 +272,9 @@ margin_right = 448.0
 margin_bottom = 192.0
 mouse_filter = 2
 
-[node name="BoardSquare24" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare24" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 448.0
@@ -236,7 +284,9 @@ margin_bottom = 192.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare25" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare25" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_top = 192.0
@@ -245,7 +295,9 @@ margin_bottom = 256.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare26" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare26" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 64.0
@@ -254,7 +306,9 @@ margin_right = 128.0
 margin_bottom = 256.0
 mouse_filter = 2
 
-[node name="BoardSquare27" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare27" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 128.0
@@ -264,7 +318,9 @@ margin_bottom = 256.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare28" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare28" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 192.0
@@ -273,7 +329,9 @@ margin_right = 256.0
 margin_bottom = 256.0
 mouse_filter = 2
 
-[node name="BoardSquare29" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare29" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 256.0
@@ -283,7 +341,9 @@ margin_bottom = 256.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare30" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare30" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 320.0
@@ -292,7 +352,9 @@ margin_right = 384.0
 margin_bottom = 256.0
 mouse_filter = 2
 
-[node name="BoardSquare31" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare31" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 384.0
@@ -302,7 +364,9 @@ margin_bottom = 256.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare32" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare32" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 448.0
@@ -311,7 +375,9 @@ margin_right = 512.0
 margin_bottom = 256.0
 mouse_filter = 2
 
-[node name="BoardSquare33" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare33" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_top = 256.0
@@ -319,7 +385,9 @@ margin_right = 64.0
 margin_bottom = 320.0
 mouse_filter = 2
 
-[node name="BoardSquare34" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare34" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 64.0
@@ -329,7 +397,9 @@ margin_bottom = 320.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare35" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare35" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 128.0
@@ -338,7 +408,9 @@ margin_right = 192.0
 margin_bottom = 320.0
 mouse_filter = 2
 
-[node name="BoardSquare36" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare36" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 192.0
@@ -348,7 +420,9 @@ margin_bottom = 320.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare37" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare37" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 256.0
@@ -357,7 +431,9 @@ margin_right = 320.0
 margin_bottom = 320.0
 mouse_filter = 2
 
-[node name="BoardSquare38" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare38" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 320.0
@@ -367,7 +443,9 @@ margin_bottom = 320.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare39" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare39" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 384.0
@@ -376,7 +454,9 @@ margin_right = 448.0
 margin_bottom = 320.0
 mouse_filter = 2
 
-[node name="BoardSquare40" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare40" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 448.0
@@ -386,7 +466,9 @@ margin_bottom = 320.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare41" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare41" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_top = 320.0
@@ -395,7 +477,9 @@ margin_bottom = 384.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare42" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare42" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 64.0
@@ -404,7 +488,9 @@ margin_right = 128.0
 margin_bottom = 384.0
 mouse_filter = 2
 
-[node name="BoardSquare43" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare43" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 128.0
@@ -414,7 +500,9 @@ margin_bottom = 384.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare44" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare44" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 192.0
@@ -423,7 +511,9 @@ margin_right = 256.0
 margin_bottom = 384.0
 mouse_filter = 2
 
-[node name="BoardSquare45" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare45" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 256.0
@@ -433,7 +523,9 @@ margin_bottom = 384.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare46" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare46" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 320.0
@@ -442,7 +534,9 @@ margin_right = 384.0
 margin_bottom = 384.0
 mouse_filter = 2
 
-[node name="BoardSquare47" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare47" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 384.0
@@ -452,7 +546,9 @@ margin_bottom = 384.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare48" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare48" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 448.0
@@ -461,7 +557,9 @@ margin_right = 512.0
 margin_bottom = 384.0
 mouse_filter = 2
 
-[node name="BoardSquare49" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare49" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_top = 384.0
@@ -469,7 +567,9 @@ margin_right = 64.0
 margin_bottom = 448.0
 mouse_filter = 2
 
-[node name="BoardSquare50" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare50" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 64.0
@@ -479,7 +579,9 @@ margin_bottom = 448.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare51" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare51" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 128.0
@@ -488,7 +590,9 @@ margin_right = 192.0
 margin_bottom = 448.0
 mouse_filter = 2
 
-[node name="BoardSquare52" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare52" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 192.0
@@ -498,7 +602,9 @@ margin_bottom = 448.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare53" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare53" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 256.0
@@ -507,7 +613,9 @@ margin_right = 320.0
 margin_bottom = 448.0
 mouse_filter = 2
 
-[node name="BoardSquare54" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare54" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 320.0
@@ -517,7 +625,9 @@ margin_bottom = 448.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare55" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare55" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 384.0
@@ -526,7 +636,9 @@ margin_right = 448.0
 margin_bottom = 448.0
 mouse_filter = 2
 
-[node name="BoardSquare56" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare56" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 448.0
@@ -536,7 +648,9 @@ margin_bottom = 448.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare57" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare57" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_top = 448.0
@@ -545,7 +659,9 @@ margin_bottom = 512.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare58" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare58" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 64.0
@@ -554,7 +670,9 @@ margin_right = 128.0
 margin_bottom = 512.0
 mouse_filter = 2
 
-[node name="BoardSquare59" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare59" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 128.0
@@ -564,7 +682,9 @@ margin_bottom = 512.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare60" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare60" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 192.0
@@ -573,7 +693,9 @@ margin_right = 256.0
 margin_bottom = 512.0
 mouse_filter = 2
 
-[node name="BoardSquare61" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare61" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 256.0
@@ -583,7 +705,9 @@ margin_bottom = 512.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare62" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare62" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 320.0
@@ -592,7 +716,9 @@ margin_right = 384.0
 margin_bottom = 512.0
 mouse_filter = 2
 
-[node name="BoardSquare63" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare63" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 384.0
@@ -602,7 +728,9 @@ margin_bottom = 512.0
 mouse_filter = 2
 is_white = false
 
-[node name="BoardSquare64" parent="." instance=ExtResource( 1 )]
+[node name="BoardSquare64" parent="." groups=[
+"board_cells",
+] instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 448.0
